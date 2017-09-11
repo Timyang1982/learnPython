@@ -1,0 +1,366 @@
+161011 18:38:09.805: [INFO] [<module>] [139] test type:mini
+161011 18:38:09.868: [INFO] [connect_device] [25] Device ID is PRWWDIHYSCQ4AMN7 backend is UIAutomator
+161011 18:38:11.278: [INFO] [openRelay] [140] open the relay
+161011 18:38:11.279: [DEBUG] [game_test] [1010] Play games start
+161011 18:38:14.128: [INFO] [start_activity] [384] start_activity com.ea.nfshp.GameActivity success.
+161011 18:39:01.953: [INFO] [get_battery] [1258]  get battery 0 times,battery:59
+161011 18:39:01.953: [INFO] [game_test] [1025] battery_start: 59
+161011 18:39:02.260: [INFO] [closeRelay] [135] close the relay
+161011 18:39:02.262: [INFO] [game_test] [1032] paly games 30mins
+161011 18:41:02.813: [INFO] [openRelay] [140] open the relay
+161011 18:41:07.437: [INFO] [get_battery] [1258]  get battery 1 times,battery:58
+161011 18:41:07.443: [INFO] [game_test] [1049] battery_finish: 58
+161011 18:41:07.470: [INFO] [updateResult] [1005] update game_battery success
+161011 18:41:07.470: [INFO] [game_test] [1053] game_battery: 1
+161011 18:41:20.717: [INFO] [testdou] [39] game_battery:1
+161011 18:41:20.717: [INFO] [play_music] [274] Play music start
+161011 18:41:20.720: [INFO] [setDisplay15s] [594] change display to 15s
+161011 18:41:20.721: [DEBUG] [enterSetting] [568] enter setting
+161011 18:41:27.003: [DEBUG] [start_app] [66] start app:Settings
+161011 18:41:30.131: [DEBUG] [start_app] [70] Settings exists
+161011 18:41:33.546: [INFO] [enterSetting] [575] enter setting success!
+161011 18:41:43.348: [INFO] [setDisplay15s] [614] change display to 15s success
+161011 18:41:49.125: [INFO] [start_activity] [384] start_activity com.alcatel.music5.activities.BaseMusicPlayerActivity success.
+161011 18:41:55.586: [INFO] [play_music] [283] CLICK id
+161011 18:41:57.614: [INFO] [play_music] [291] Playing Music 30 mins.
+161011 18:41:57.680: [INFO] [get_battery] [1258]  get battery 0 times,battery:58
+161011 18:41:57.681: [INFO] [play_music] [294] battery_start: 58
+161011 18:41:57.888: [INFO] [closeRelay] [135] close the relay
+161011 18:43:57.934: [INFO] [openRelay] [140] open the relay
+161011 18:44:02.605: [INFO] [get_battery] [1258]  get battery 1 times,battery:57
+161011 18:44:02.607: [INFO] [play_music] [316] battery_finish: 57
+161011 18:44:17.395: [INFO] [setDisplayNever] [621] change display to Never
+161011 18:44:17.397: [DEBUG] [enterSetting] [568] enter setting
+161011 18:44:23.759: [DEBUG] [start_app] [66] start app:Settings
+161011 18:44:26.934: [DEBUG] [start_app] [70] Settings exists
+161011 18:44:30.250: [INFO] [enterSetting] [575] enter setting success!
+161011 18:44:40.944: [INFO] [setDisplayNever] [644] change display to Never success.
+161011 18:44:45.700: [ERROR] [start_activity] [382] Fail: com.alcatel.music5.china.debug/com.alcatel.music5.activities.BaseMusicPlayerActivity
+161011 18:44:45.700: [INFO] [play_music] [322] stop playing music
+161011 18:44:48.759: [DEBUG] [play_music] [328] com.alcatel.music5.china.debug:id/track_play_pause_image_btn not exits.
+161011 18:44:48.924: [INFO] [play_music] [330] stop 
+161011 18:44:49.928: [INFO] [updateResult] [1005] update music_battery success
+161011 18:44:49.928: [INFO] [play_music] [337] music_battery: 1
+161011 18:44:50.967: [INFO] [testdou] [42] music_battery:1
+161011 18:44:50.969: [DEBUG] [tencent_video_test] [901] tencent video test start
+161011 18:44:50.969: [INFO] [openwifi] [1145] open wifi mobile test.
+161011 18:44:50.970: [DEBUG] [enterSetting] [568] enter setting
+161011 18:44:57.338: [DEBUG] [start_app] [66] start app:Settings
+161011 18:45:00.476: [DEBUG] [start_app] [70] Settings exists
+161011 18:45:03.634: [INFO] [enterSetting] [575] enter setting success!
+161011 18:45:08.595: [INFO] [openwifi] [1165] open wifi success.
+161011 18:45:23.875: [INFO] [start_activity] [384] start_activity com.tencent.qqlive.model.home.HomeActivity success.
+161011 18:45:42.762: [INFO] [get_battery] [1258]  get battery 0 times,battery:57
+161011 18:45:42.763: [INFO] [tencent_video_test] [947] battery_start: 57
+161011 18:45:43.079: [INFO] [closeRelay] [135] close the relay
+161011 18:45:43.081: [DEBUG] [tencent_video_test] [955] watching TV 30mins
+161011 18:47:43.180: [INFO] [openRelay] [140] open the relay
+161011 18:47:47.351: [INFO] [get_battery] [1258]  get battery 1 times,battery:56
+161011 18:47:47.351: [DEBUG] [tencent_video_test] [978] battery_finish: 56
+161011 18:47:47.359: [INFO] [updateResult] [1005] update tencentvideo_battery success
+161011 18:47:47.361: [INFO] [tencent_video_test] [982] tencentvideo_battery: 1
+161011 18:48:03.562: [DEBUG] [closewifi] [1176] close wifi mobile test.
+161011 18:48:03.562: [DEBUG] [enterSetting] [568] enter setting
+161011 18:48:09.793: [DEBUG] [start_app] [66] start app:Settings
+161011 18:48:12.973: [DEBUG] [start_app] [70] Settings exists
+161011 18:48:16.332: [INFO] [enterSetting] [575] enter setting success!
+161011 18:48:22.553: [INFO] [closewifi] [1196] close wifi success.
+161011 18:48:26.052: [INFO] [testdou] [45] tencentVideo_battery:1
+161011 18:48:26.055: [DEBUG] [Call_test] [446] test call start
+161011 18:48:26.055: [INFO] [setDisplay15s] [594] change display to 15s
+161011 18:48:26.062: [DEBUG] [enterSetting] [568] enter setting
+161011 18:48:33.094: [DEBUG] [start_app] [66] start app:Settings
+161011 18:48:36.198: [DEBUG] [start_app] [70] Settings exists
+161011 18:48:39.292: [INFO] [enterSetting] [575] enter setting success!
+161011 18:48:48.803: [INFO] [setDisplay15s] [614] change display to 15s success
+161011 18:48:54.980: [INFO] [get_battery] [1258]  get battery 0 times,battery:56
+161011 18:48:54.982: [INFO] [Call_test] [456] battery_start: 56
+161011 18:48:55.984: [DEBUG] [Call_test] [526] phoneNumber:10010
+161011 18:48:57.737: [DEBUG] [Call_test] [531] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+161011 18:48:57.737: [INFO] [Call_test] [533] Call success
+161011 18:50:59.440: [INFO] [get_battery] [1258]  get battery 0 times,battery:56
+161011 18:50:59.441: [INFO] [Call_test] [540] battery_finish: 56
+161011 18:50:59.887: [INFO] [Call_test] [551] call_battery: 0
+161011 18:51:00.003: [INFO] [setDisplayNever] [621] change display to Never
+161011 18:51:00.005: [DEBUG] [enterSetting] [568] enter setting
+161011 18:51:06.180: [DEBUG] [start_app] [66] start app:Settings
+161011 18:51:09.315: [DEBUG] [start_app] [70] Settings exists
+161011 18:51:12.622: [INFO] [enterSetting] [575] enter setting success!
+161011 18:51:23.483: [INFO] [setDisplayNever] [644] change display to Never success.
+161011 18:51:30.072: [INFO] [testdou] [48] call_battery:0
+161011 18:51:30.073: [DEBUG] [camera_test] [652] camera test start
+161011 18:51:31.351: [INFO] [start_activity] [384] start_activity com.android.camera.CameraLauncher success.
+161011 18:51:31.408: [INFO] [get_battery] [1258]  get battery 0 times,battery:56
+161011 18:51:31.408: [INFO] [camera_test] [660] battery_start: 56
+161011 18:51:32.592: [INFO] [camera_test] [670] start camera.bat
+161011 18:51:34.657: [INFO] [closeRelay] [135] close the relay
+161011 18:53:34.717: [INFO] [openRelay] [140] open the relay
+161011 18:53:36.894: [INFO] [get_shell_pid] [882] shellpid info:
+161011 18:53:36.894: [DEBUG] [get_shell_pid] [885] loop:0
+161011 18:53:36.894: [INFO] [get_shell_pid] [896] can not find shell process
+161011 18:53:36.894: [INFO] [camera_test] [684] kill shell pid 
+161011 18:53:50.009: [INFO] [closeRelay] [135] close the relay
+161011 18:53:50.009: [INFO] [camera_test] [693] recording 5 mins.
+161011 18:55:50.582: [INFO] [openRelay] [140] open the relay
+161011 18:56:04.302: [INFO] [get_battery] [1258]  get battery 0 times,battery:55
+161011 18:56:04.303: [INFO] [camera_test] [702] battery_finish: 55
+161011 18:56:04.309: [INFO] [updateResult] [1005] update camera_battery success
+161011 18:56:04.309: [INFO] [camera_test] [713] camera_battery: 1
+161011 18:56:10.339: [INFO] [testdou] [51] camera_battery:1
+161011 18:56:10.341: [DEBUG] [browser_test] [390] Browser test start
+161011 18:56:11.575: [INFO] [start_activity] [384] start_activity com.tencent.mtt.MainActivity success.
+161011 18:56:24.982: [INFO] [get_battery] [1258]  get battery 0 times,battery:55
+161011 18:56:25.032: [INFO] [browser_test] [405] battery_start: 55
+161011 18:56:25.239: [INFO] [closeRelay] [135] close the relay
+161011 18:56:25.239: [DEBUG] [browser_test] [414] browse website 30 mins.
+161011 18:58:25.279: [INFO] [openRelay] [140] open the relay
+161011 18:58:29.477: [INFO] [get_battery] [1258]  get battery 1 times,battery:54
+161011 18:58:29.492: [INFO] [browser_test] [430] battery_finish: 54
+161011 18:58:29.494: [INFO] [updateResult] [1005] update browser_battery success
+161011 18:58:29.494: [INFO] [browser_test] [434] browser_battery: 1
+161011 18:58:42.007: [INFO] [testdou] [54] browser_battery:1
+161011 18:58:42.009: [DEBUG] [openGPS] [1206] open gps.
+161011 18:58:42.009: [DEBUG] [enterSetting] [568] enter setting
+161011 18:58:48.243: [DEBUG] [start_app] [66] start app:Settings
+161011 18:58:51.420: [DEBUG] [start_app] [70] Settings exists
+161011 18:58:54.538: [INFO] [enterSetting] [575] enter setting success!
+161011 18:58:57.618: [INFO] [openGPS] [1222] GPS wifi success.
+161011 18:59:01.048: [DEBUG] [baidumap_test] [728] baidu map test start
+161011 18:59:02.295: [INFO] [start_activity] [384] start_activity com.baidu.baidumaps.WelcomeScreen success.
+161011 18:59:25.006: [INFO] [get_battery] [1258]  get battery 0 times,battery:54
+161011 18:59:25.007: [INFO] [baidumap_test] [767] battery_start: 54
+161011 18:59:26.617: [INFO] [closeRelay] [135] close the relay
+161011 19:01:27.197: [INFO] [openRelay] [140] open the relay
+161011 19:01:32.374: [INFO] [get_battery] [1258]  get battery 1 times,battery:52
+161011 19:01:32.816: [INFO] [baidumap_test] [788] battery_finish: 52
+161011 19:01:32.819: [INFO] [updateResult] [1005] update baidumap_battery success
+161011 19:01:32.821: [INFO] [baidumap_test] [792] baidumap_battery: 2
+161011 19:01:44.446: [INFO] [baidumap_test] [803] navigation end
+161011 19:01:50.588: [DEBUG] [closeGPS] [1229] close gps
+161011 19:01:50.588: [DEBUG] [enterSetting] [568] enter setting
+161011 19:01:57.339: [DEBUG] [start_app] [66] start app:Settings
+161011 19:02:00.505: [DEBUG] [start_app] [70] Settings exists
+161011 19:02:03.677: [INFO] [enterSetting] [575] enter setting success!
+161011 19:02:06.776: [INFO] [closeGPS] [1245] close wifi success.
+161011 19:02:10.246: [INFO] [testdou] [57] baiduMap_battery:2
+161011 19:02:10.246: [DEBUG] [sina_weibo_test] [814] sina weibo test start
+161011 19:02:11.505: [INFO] [start_activity] [384] start_activity com.sina.weibo.MainTabActivity success.
+161011 19:02:11.559: [INFO] [get_battery] [1258]  get battery 0 times,battery:52
+161011 19:02:11.559: [INFO] [sina_weibo_test] [821] battery_start: 52
+161011 19:02:13.938: [INFO] [get_shell_pid] [882] shellpid info:root      240   2     0      0     rescuer_th 0000000000 S kdmflush
+root      1756  2     0      0     rescuer_th 0000000000 S kdmflush
+shell     1811  1     13408  736   hrtimer_na 0000000000 S /system/bin/mobile_log_d
+shell     1812  1     16044  808   futex_wait 0000000000 S /system/bin/netdiag
+shell     1829  1     15608  1052  hrtimer_na 7f880f40a4 S /system/bin/batterywarning
+shell     2252  1     18032  904    pipe_wait 0000000000 S /system/bin/emdlogger1
+shell     2524  1     18012  1484   pipe_wait 0000000000 S /system/bin/emdlogger3
+shell     6884  1     18020  1032  poll_sched 0000000000 S /sbin/adbd
+u0_a165   10413 1833  1070160 46912 SyS_epoll_ 0000000000 S com.ximalaya.ting.android:pushservice
+u0_a164   10419 1833  1599000 41720 SyS_epoll_ 0000000000 S com.achievo.vipshop:pushservice
+u0_a172   11181 1833  1649760 51620 SyS_epoll_ 0000000000 S com.tencent.mm:push
+u0_a168   12317 1833  1168824 122028 SyS_epoll_ 0000000000 S com.ea.nfshp
+shell     15646 6884  1921344 48476 futex_wait 7f84929030 S uiautomator
+shell     15749 6884  13612  1480  n_tty_read 7f946b3e64 S /system/bin/sh
+shell     15761 15749 13612  1424  poll_sched 7fb6d8cd5c S sh
+shell     15807 6884  13816  1244           0 7f7e312e64 R ps
+
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:0
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:1
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:2
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:3
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:4
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:5
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:6
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:7
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:8
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:9
+161011 19:02:13.938: [DEBUG] [get_shell_pid] [885] loop:10
+161011 19:02:13.940: [DEBUG] [get_shell_pid] [885] loop:11
+161011 19:02:13.940: [DEBUG] [get_shell_pid] [885] loop:12
+161011 19:02:13.940: [DEBUG] [get_shell_pid] [885] loop:13
+161011 19:02:13.940: [DEBUG] [get_shell_pid] [885] loop:14
+161011 19:02:13.940: [INFO] [get_shell_pid] [887] find shell process
+161011 19:02:13.940: [INFO] [get_shell_pid] [889] sh_pidinfo:shell     15761 15749 13612  1424  poll_sched 7fb6d8cd5c S sh
+161011 19:02:13.940: [INFO] [get_shell_pid] [893] sh_pid is:15761
+161011 19:02:14.999: [INFO] [closeRelay] [135] close the relay
+161011 19:02:15.000: [INFO] [sina_weibo_test] [837] browser weibo 30mins
+161011 19:04:15.599: [INFO] [openRelay] [140] open the relay
+161011 19:04:20.653: [INFO] [get_battery] [1258]  get battery 0 times,battery:52
+161011 19:04:20.653: [INFO] [sina_weibo_test] [847] battery_finish: 52
+161011 19:04:20.654: [INFO] [updateResult] [1005] update weibo_battery success
+161011 19:04:20.654: [INFO] [sina_weibo_test] [851] weibo_battery: 0
+161011 19:04:20.822: [INFO] [get_shell_pid] [882] shellpid info:root      240   2     0      0     rescuer_th 0000000000 S kdmflush
+root      1756  2     0      0     rescuer_th 0000000000 S kdmflush
+shell     1811  1     13408  736   hrtimer_na 0000000000 S /system/bin/mobile_log_d
+shell     1812  1     16044  808   futex_wait 0000000000 S /system/bin/netdiag
+shell     1829  1     15608  1052  hrtimer_na 7f880f40a4 S /system/bin/batterywarning
+shell     2252  1     18032  904    pipe_wait 0000000000 S /system/bin/emdlogger1
+shell     2524  1     18012  1484   pipe_wait 0000000000 S /system/bin/emdlogger3
+shell     6884  1     15940  920              0000000000 R /sbin/adbd
+u0_a165   10413 1833  1070160 46912 SyS_epoll_ 0000000000 S com.ximalaya.ting.android:pushservice
+u0_a164   10419 1833  1599000 41720 SyS_epoll_ 0000000000 S com.achievo.vipshop:pushservice
+u0_a172   11181 1833  1650272 51972 SyS_epoll_ 0000000000 S com.tencent.mm:push
+u0_a168   12317 1833  1168824 122028 SyS_epoll_ 0000000000 S com.ea.nfshp
+shell     15761 1     13612  1476  poll_sched 7fb6d8cd5c S sh
+shell     15978 6884  13816  1280           0 7fa4672e64 R ps
+
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:0
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:1
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:2
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:3
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:4
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:5
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:6
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:7
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:8
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:9
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:10
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:11
+161011 19:04:20.822: [DEBUG] [get_shell_pid] [885] loop:12
+161011 19:04:20.822: [INFO] [get_shell_pid] [887] find shell process
+161011 19:04:20.823: [INFO] [get_shell_pid] [889] sh_pidinfo:shell     15761 1     13612  1476  poll_sched 7fb6d8cd5c S sh
+161011 19:04:20.823: [INFO] [get_shell_pid] [893] sh_pid is:15761
+161011 19:04:20.823: [INFO] [sina_weibo_test] [855] kill shell pid 15761
+161011 19:04:20.865: [INFO] [sina_weibo_test] [859] kill shell pid success
+161011 19:04:34.605: [INFO] [testdou] [60] weibo_battery:0
+161011 19:04:34.605: [INFO] [setDisplayNever] [621] change display to Never
+161011 19:04:34.607: [DEBUG] [enterSetting] [568] enter setting
+161011 19:04:40.857: [DEBUG] [start_app] [66] start app:Settings
+161011 19:04:44.020: [DEBUG] [start_app] [70] Settings exists
+161011 19:04:47.302: [INFO] [enterSetting] [575] enter setting success!
+161011 19:04:58.013: [INFO] [setDisplayNever] [644] change display to Never success.
+161011 19:05:01.424: [DEBUG] [wechat_test] [1067] test wechat start
+161011 19:05:02.736: [INFO] [start_activity] [384] start_activity com.tencent.mm.ui.LauncherUI success.
+161011 19:05:12.036: [INFO] [get_battery] [1258]  get battery 0 times,battery:52
+161011 19:05:12.036: [INFO] [wechat_test] [1090] battery_start: 52
+161011 19:05:13.305: [INFO] [closeRelay] [135] close the relay
+161011 19:05:13.305: [DEBUG] [wechat_test] [1103] test wechat  30mins
+161011 19:07:13.887: [INFO] [openRelay] [140] open the relay
+161011 19:07:16.466: [INFO] [get_shell_pid] [882] shellpid info:
+161011 19:07:16.467: [DEBUG] [get_shell_pid] [885] loop:0
+161011 19:07:16.467: [INFO] [get_shell_pid] [896] can not find shell process
+161011 19:07:17.578: [INFO] [get_battery] [1258]  get battery 0 times,battery:51
+161011 19:07:17.578: [INFO] [wechat_test] [1117] battery_finish: 51
+161011 19:07:17.584: [INFO] [updateResult] [1005] update wechat_battery success
+161011 19:07:17.584: [INFO] [wechat_test] [1129] wechat_battery: 1
+161011 19:07:31.423: [INFO] [testdou] [63] wechat_battery:1
+161011 19:07:31.424: [INFO] [tearDownClass] [23] Dou Automation Test Completed
+161011 19:11:51.480: [INFO] [<module>] [139] test type:mini
+161011 19:11:51.484: [INFO] [connect_device] [25] Device ID is PRWWDIHYSCQ4AMN7 backend is UIAutomator
+161011 19:11:51.638: [INFO] [openRelay] [140] open the relay
+161011 19:11:51.638: [INFO] [play_music] [274] Play music start
+161011 19:11:51.640: [INFO] [setDisplay15s] [594] change display to 15s
+161011 19:11:51.640: [DEBUG] [enterSetting] [568] enter setting
+161011 19:12:03.970: [DEBUG] [start_app] [66] start app:Settings
+161011 19:12:07.198: [DEBUG] [start_app] [70] Settings exists
+161011 19:12:07.992: [ERROR] [play_music] [339] [Errno 4] Interrupted function call
+161011 19:12:20.372: [INFO] [<module>] [139] test type:mini
+161011 19:12:20.377: [INFO] [connect_device] [25] Device ID is PRWWDIHYSCQ4AMN7 backend is UIAutomator
+161011 19:12:23.191: [INFO] [openRelay] [140] open the relay
+161011 19:12:23.193: [INFO] [play_music] [274] Play music start
+161011 19:12:23.193: [INFO] [setDisplay15s] [594] change display to 15s
+161011 19:12:23.193: [DEBUG] [enterSetting] [568] enter setting
+161011 19:12:34.990: [DEBUG] [start_app] [66] start app:Settings
+161011 19:12:38.130: [DEBUG] [start_app] [70] Settings exists
+161011 19:12:41.280: [INFO] [enterSetting] [575] enter setting success!
+161011 19:12:50.940: [INFO] [setDisplay15s] [614] change display to 15s success
+161011 19:12:56.463: [INFO] [start_activity] [384] start_activity com.alcatel.music5.activities.BaseMusicPlayerActivity success.
+161011 19:13:02.849: [INFO] [play_music] [283] CLICK id
+161011 19:13:04.881: [INFO] [play_music] [291] Playing Music 30 mins.
+161011 19:13:04.960: [INFO] [get_battery] [1258]  get battery 0 times,battery:52
+161011 19:13:04.960: [INFO] [play_music] [294] battery_start: 52
+161011 19:13:05.165: [INFO] [closeRelay] [135] close the relay
+161011 19:15:05.227: [INFO] [openRelay] [140] open the relay
+161011 19:15:09.364: [INFO] [get_battery] [1258]  get battery 1 times,battery:51
+161011 19:15:09.364: [INFO] [play_music] [316] battery_finish: 51
+161011 19:15:24.239: [INFO] [setDisplayNever] [621] change display to Never
+161011 19:15:24.240: [DEBUG] [enterSetting] [568] enter setting
+161011 19:15:30.641: [DEBUG] [start_app] [66] start app:Settings
+161011 19:15:33.790: [DEBUG] [start_app] [70] Settings exists
+161011 19:15:37.069: [INFO] [enterSetting] [575] enter setting success!
+161011 19:15:59.989: [INFO] [setDisplayNever] [644] change display to Never success.
+161011 19:16:06.253: [ERROR] [start_activity] [382] Fail: com.alcatel.music5.china.debug/com.alcatel.music5.activities.BaseMusicPlayerActivity
+161011 19:16:06.255: [INFO] [play_music] [322] stop playing music
+161011 19:16:10.328: [DEBUG] [play_music] [328] com.alcatel.music5.china.debug:id/track_play_pause_image_btn not exits.
+161011 19:16:10.505: [INFO] [play_music] [330] stop 
+161011 19:16:11.513: [INFO] [updateResult] [1005] update music_battery success
+161011 19:16:11.513: [INFO] [play_music] [337] music_battery: 1
+161011 19:16:12.582: [INFO] [testdou] [42] music_battery:1
+161011 19:16:12.585: [INFO] [play_music] [274] Play music start
+161011 19:16:12.588: [INFO] [setDisplay15s] [594] change display to 15s
+161011 19:16:12.591: [DEBUG] [enterSetting] [568] enter setting
+161011 19:16:18.924: [DEBUG] [start_app] [66] start app:Settings
+161011 19:16:22.069: [DEBUG] [start_app] [70] Settings exists
+161011 19:16:25.217: [INFO] [enterSetting] [575] enter setting success!
+161011 19:16:34.808: [INFO] [setDisplay15s] [614] change display to 15s success
+161011 19:16:40.551: [INFO] [start_activity] [384] start_activity com.alcatel.music5.activities.BaseMusicPlayerActivity success.
+161011 19:16:41.773: [INFO] [<module>] [139] test type:mini
+161011 19:16:41.778: [INFO] [connect_device] [25] Device ID is PRWWDIHYSCQ4AMN7 backend is UIAutomator
+161011 19:16:41.894: [INFO] [openRelay] [140] open the relay
+161011 19:16:41.895: [INFO] [play_music] [274] Play music start
+161011 19:16:41.895: [INFO] [setDisplay15s] [594] change display to 15s
+161011 19:16:41.895: [DEBUG] [enterSetting] [568] enter setting
+161011 19:16:47.460: [DEBUG] [play_music] [285] com.alcatel.music5.china:id/track_play_pause_image_btn not exits.
+161011 19:16:49.466: [DEBUG] [start_app] [66] start app:Settings
+161011 19:16:49.634: [INFO] [play_music] [291] Playing Music 30 mins.
+161011 19:16:49.730: [INFO] [get_battery] [1258]  get battery 0 times,battery:51
+161011 19:16:49.730: [INFO] [play_music] [294] battery_start: 51
+161011 19:16:49.950: [INFO] [closeRelay] [135] close the relay
+161011 19:16:56.176: [ERROR] [play_music] [339] Device not attached.
+161011 19:16:58.894: [INFO] [<module>] [139] test type:mini
+161011 19:16:58.897: [INFO] [connect_device] [25] Device ID is PRWWDIHYSCQ4AMN7 backend is UIAutomator
+161011 19:17:00.019: [INFO] [openRelay] [140] open the relay
+161011 19:17:00.019: [INFO] [play_music] [274] Play music start
+161011 19:17:00.019: [INFO] [setDisplay15s] [594] change display to 15s
+161011 19:17:00.019: [DEBUG] [enterSetting] [568] enter setting
+161011 19:17:20.568: [DEBUG] [start_app] [66] start app:Settings
+161011 19:17:23.703: [DEBUG] [start_app] [70] Settings exists
+161011 19:17:26.767: [INFO] [enterSetting] [575] enter setting success!
+161011 19:17:36.506: [INFO] [setDisplay15s] [614] change display to 15s success
+161011 19:17:42.210: [INFO] [start_activity] [384] start_activity com.alcatel.music5.activities.BaseMusicPlayerActivity success.
+161011 19:17:48.526: [INFO] [play_music] [283] CLICK id
+161011 19:17:51.529: [INFO] [play_music] [291] Playing Music 30 mins.
+161011 19:17:51.608: [INFO] [get_battery] [1258]  get battery 0 times,battery:50
+161011 19:17:51.608: [INFO] [play_music] [294] battery_start: 50
+161011 19:17:51.808: [INFO] [closeRelay] [135] close the relay
+161011 19:18:50.013: [INFO] [openRelay] [140] open the relay
+161011 19:18:54.187: [INFO] [get_battery] [1258]  get battery 1 times,battery:49
+161011 19:18:54.187: [INFO] [play_music] [316] battery_finish: 49
+161011 19:19:08.285: [INFO] [setDisplayNever] [621] change display to Never
+161011 19:19:08.286: [DEBUG] [enterSetting] [568] enter setting
+161011 19:19:14.585: [DEBUG] [start_app] [66] start app:Settings
+161011 19:19:17.772: [DEBUG] [start_app] [70] Settings exists
+161011 19:19:20.966: [INFO] [enterSetting] [575] enter setting success!
+161011 19:19:31.867: [INFO] [setDisplayNever] [644] change display to Never success.
+161011 19:19:38.094: [ERROR] [start_activity] [382] Fail: com.alcatel.music5.china.debug/com.alcatel.music5.activities.BaseMusicPlayerActivity
+161011 19:19:38.095: [INFO] [play_music] [322] stop playing music
+161011 19:19:42.158: [DEBUG] [play_music] [328] com.alcatel.music5.china.debug:id/track_play_pause_image_btn not exits.
+161011 19:19:42.318: [INFO] [play_music] [330] stop 
+161011 19:19:43.325: [INFO] [updateResult] [1005] update music_battery success
+161011 19:19:43.328: [INFO] [play_music] [337] music_battery: 2
+161011 19:19:44.377: [INFO] [testdou] [42] music_battery:2
+161011 19:19:44.378: [INFO] [play_music] [274] Play music start
+161011 19:19:44.381: [INFO] [setDisplay15s] [594] change display to 15s
+161011 19:19:44.382: [DEBUG] [enterSetting] [568] enter setting
+161011 19:19:51.835: [DEBUG] [start_app] [66] start app:Settings
+161011 19:19:51.841: [INFO] [openRelay] [140] open the relay
+161011 19:19:53.973: [INFO] [get_battery] [1258]  get battery 0 times,battery:49
+161011 19:19:53.973: [INFO] [play_music] [316] battery_finish: 49
+161011 19:19:54.617: [DEBUG] [start_app] [70] Settings exists
+161011 19:19:57.857: [INFO] [enterSetting] [575] enter setting success!
+161011 19:19:59.059: [INFO] [setDisplayNever] [621] change display to Never
+161011 19:19:59.059: [DEBUG] [enterSetting] [568] enter setting
+161011 19:19:59.086: [INFO] [enterSetting] [570] enter setting success!
+161011 19:20:14.963: [INFO] [start_activity] [384] start_activity com.alcatel.music5.activities.BaseMusicPlayerActivity success.
+161011 19:20:20.157: [INFO] [start_activity] [384] start_activity com.alcatel.music5.activities.BaseMusicPlayerActivity success.
+161011 19:20:20.157: [INFO] [play_music] [322] stop playing music
+161011 19:20:21.286: [INFO] [play_music] [283] CLICK id
+161011 19:20:23.342: [INFO] [play_music] [291] Playing Music 30 mins.
+161011 19:20:23.361: [DEBUG] [play_music] [328] com.alcatel.music5.china.debug:id/track_play_pause_image_btn not exits.
+161011 19:20:23.411: [INFO] [get_battery] [1258]  get battery 0 times,battery:49
+161011 19:20:23.411: [INFO] [play_music] [294] battery_start: 49
+161011 19:20:23.515: [INFO] [play_music] [330] stop 
+161011 19:20:23.644: [INFO] [closeRelay] [135] close the relay
+161011 19:20:24.517: [INFO] [updateResult] [1005] update music_battery success
+161011 19:20:24.517: [INFO] [play_music] [337] music_battery: 1

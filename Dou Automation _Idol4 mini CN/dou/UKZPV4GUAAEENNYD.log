@@ -1,0 +1,320 @@
+160918 13:58:13.516: [INFO] [<module>] [139] test type:mini
+160918 13:58:13.516: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 13:58:14.592: [INFO] [openRelay] [140] open the relay
+160918 13:58:14.592: [DEBUG] [Call_test] [423] test call start
+160918 13:58:16.664: [INFO] [get_battery] [1149]  get battery 1 times,battery:73
+160918 13:58:16.664: [INFO] [Call_test] [427] battery_start: 73
+160918 13:58:17.678: [INFO] [Call_test] [491] start call.bat
+160918 13:58:19.801: [INFO] [closeRelay] [135] close the relay
+160918 14:04:42.028: [INFO] [<module>] [139] test type:mini
+160918 14:04:42.028: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 14:04:43.119: [INFO] [openRelay] [140] open the relay
+160918 14:04:43.119: [DEBUG] [Call_test] [423] test call start
+160918 14:04:43.119: [INFO] [setDisplay15s] [556] change display to 15s
+160918 14:04:43.119: [DEBUG] [enterSetting] [530] enter setting
+160918 14:19:52.460: [INFO] [<module>] [139] test type:mini
+160918 14:19:52.460: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 14:19:53.552: [INFO] [openRelay] [140] open the relay
+160918 14:19:53.552: [DEBUG] [Call_test] [423] test call start
+160918 14:19:53.552: [INFO] [setDisplay15s] [556] change display to 15s
+160918 14:19:53.552: [DEBUG] [enterSetting] [530] enter setting
+160918 14:20:11.743: [DEBUG] [start_app] [66] start app:Settings
+160918 14:20:14.269: [DEBUG] [start_app] [70] Settings exists
+160918 14:20:17.296: [INFO] [enterSetting] [537] enter setting success!
+160918 14:20:26.921: [INFO] [setDisplay15s] [576] change display to 15s success
+160918 14:20:30.322: [INFO] [get_battery] [1149]  get battery 0 times,battery:77
+160918 14:20:30.322: [INFO] [Call_test] [427] battery_start: 77
+160918 14:20:31.336: [INFO] [Call_test] [491] start call.bat
+160918 14:20:33.395: [INFO] [closeRelay] [135] close the relay
+160918 14:50:33.450: [INFO] [openRelay] [140] open the relay
+160918 14:50:45.230: [INFO] [get_shell_pid] [806] shellpid info:root      241   2     0      0     rescuer_th 0000000000 S kdmflush
+root      385   2     0      0     rescuer_th 0000000000 S kdmflush
+shell     423   1     13152  1324  hrtimer_na 0000000000 S /system/bin/mobile_log_d
+shell     424   1     16044  1536  futex_wait 0000000000 S /system/bin/netdiag
+shell     454   1     15608  1632  hrtimer_na 7fa0a860a4 S /system/bin/batterywarning
+shell     847   1     18032  1864   pipe_wait 0000000000 S /system/bin/emdlogger1
+shell     886   1     18012  1860   pipe_wait 0000000000 S /system/bin/emdlogger3
+shell     5557  1     16980  876   poll_sched 0000000000 S /sbin/adbd
+shell     7446  1     13612  1420  poll_sched 7fae4dcd5c S sh
+shell     7853  5557  1919788 44936 futex_wait 7f9cb0e030 S uiautomator
+shell     7866  5557  13816  1280           0 7fb06fce64 R ps
+
+160918 14:50:45.230: [DEBUG] [get_shell_pid] [809] loop:0
+160918 14:50:45.230: [DEBUG] [get_shell_pid] [809] loop:1
+160918 14:50:45.230: [DEBUG] [get_shell_pid] [809] loop:2
+160918 14:50:45.240: [DEBUG] [get_shell_pid] [809] loop:3
+160918 14:50:45.240: [DEBUG] [get_shell_pid] [809] loop:4
+160918 14:50:45.240: [DEBUG] [get_shell_pid] [809] loop:5
+160918 14:50:45.240: [DEBUG] [get_shell_pid] [809] loop:6
+160918 14:50:45.240: [DEBUG] [get_shell_pid] [809] loop:7
+160918 14:50:45.240: [DEBUG] [get_shell_pid] [809] loop:8
+160918 14:50:45.240: [INFO] [get_shell_pid] [811] find shell process
+160918 14:50:45.240: [INFO] [get_shell_pid] [813] sh_pidinfo:shell     7446  1     13612  1420  poll_sched 7fae4dcd5c S sh
+160918 14:50:45.240: [INFO] [get_shell_pid] [817] sh_pid is:7446
+160918 14:50:45.240: [INFO] [Call_test] [502] kill shell pid 7446
+160918 14:50:45.270: [INFO] [Call_test] [506] kill shell pid success
+160918 14:50:45.301: [INFO] [get_battery] [1149]  get battery 0 times,battery:77
+160918 14:50:45.301: [INFO] [Call_test] [509] battery_finish: 77
+160918 14:50:45.301: [INFO] [Call_test] [512] call_battery: 0
+160918 14:50:45.430: [INFO] [setDisplayNever] [583] change display to Never
+160918 14:50:45.430: [DEBUG] [enterSetting] [530] enter setting
+160918 14:50:51.631: [DEBUG] [start_app] [66] start app:Settings
+160918 14:50:53.821: [DEBUG] [start_app] [70] Settings exists
+160918 14:50:56.851: [INFO] [enterSetting] [537] enter setting success!
+160918 14:51:07.540: [INFO] [setDisplayNever] [606] change display to Never success.
+160918 14:51:14.061: [INFO] [testdou] [48] call_battery:0
+160918 14:51:14.061: [INFO] [tearDownClass] [23] Dou Automation Test Completed
+160918 15:09:31.966: [INFO] [<module>] [139] test type:mini
+160918 15:09:31.966: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 15:09:32.075: [INFO] [openRelay] [140] open the relay
+160918 15:09:32.075: [DEBUG] [Call_test] [423] test call start
+160918 15:09:32.075: [INFO] [setDisplay15s] [556] change display to 15s
+160918 15:09:32.075: [DEBUG] [enterSetting] [530] enter setting
+160918 15:09:39.266: [DEBUG] [start_app] [66] start app:Settings
+160918 15:09:41.591: [DEBUG] [start_app] [70] Settings exists
+160918 15:09:44.696: [INFO] [enterSetting] [537] enter setting success!
+160918 15:09:54.226: [INFO] [setDisplay15s] [576] change display to 15s success
+160918 15:09:57.799: [INFO] [get_battery] [1149]  get battery 0 times,battery:82
+160918 15:09:57.799: [INFO] [Call_test] [427] battery_start: 82
+160918 15:09:58.813: [INFO] [Call_test] [491] start call.bat
+160918 15:10:00.888: [INFO] [closeRelay] [135] close the relay
+160918 15:17:14.220: [INFO] [<module>] [139] test type:mini
+160918 15:17:14.220: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 15:17:15.328: [INFO] [openRelay] [140] open the relay
+160918 15:17:15.328: [DEBUG] [Call_test] [423] test call start
+160918 15:17:15.328: [INFO] [setDisplay15s] [556] change display to 15s
+160918 15:17:15.328: [DEBUG] [enterSetting] [530] enter setting
+160918 15:18:11.772: [INFO] [<module>] [139] test type:mini
+160918 15:18:11.788: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 15:18:12.880: [INFO] [openRelay] [140] open the relay
+160918 15:18:12.880: [DEBUG] [Call_test] [423] test call start
+160918 15:18:12.927: [INFO] [get_battery] [1149]  get battery 0 times,battery:82
+160918 15:18:12.927: [INFO] [Call_test] [427] battery_start: 82
+160918 15:18:13.940: [INFO] [Call_test] [491] start call.bat
+160918 15:18:16.000: [INFO] [closeRelay] [135] close the relay
+160918 15:18:46.855: [INFO] [<module>] [139] test type:mini
+160918 15:18:46.871: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 15:18:47.963: [INFO] [openRelay] [140] open the relay
+160918 15:18:47.963: [DEBUG] [Call_test] [423] test call start
+160918 15:20:45.303: [INFO] [<module>] [139] test type:mini
+160918 15:20:45.303: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 15:20:46.395: [INFO] [openRelay] [140] open the relay
+160918 15:20:46.411: [DEBUG] [Call_test] [423] test call start
+160918 15:20:46.443: [INFO] [get_battery] [1149]  get battery 0 times,battery:83
+160918 15:20:46.443: [INFO] [Call_test] [427] battery_start: 83
+160918 15:20:47.457: [INFO] [Call_test] [491] start call.bat
+160918 15:20:49.500: [INFO] [closeRelay] [135] close the relay
+160918 15:39:43.207: [INFO] [<module>] [139] test type:mini
+160918 15:39:43.210: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 15:39:44.306: [INFO] [openRelay] [140] open the relay
+160918 15:39:44.308: [DEBUG] [Call_test] [423] test call start
+160918 15:44:03.520: [INFO] [<module>] [139] test type:mini
+160918 15:44:03.523: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 15:44:04.611: [INFO] [openRelay] [140] open the relay
+160918 15:44:04.611: [DEBUG] [Call_test] [423] test call start
+160918 15:44:04.653: [INFO] [get_battery] [1149]  get battery 0 times,battery:82
+160918 15:44:04.654: [INFO] [Call_test] [427] battery_start: 82
+160918 15:44:05.654: [INFO] [Call_test] [491] start call.bat
+160918 15:44:07.697: [INFO] [closeRelay] [135] close the relay
+160918 16:14:07.753: [INFO] [openRelay] [140] open the relay
+160918 16:14:20.773: [INFO] [get_shell_pid] [806] shellpid info:root      241   2     0      0     rescuer_th 0000000000 S kdmflush
+root      385   2     0      0     rescuer_th 0000000000 S kdmflush
+shell     423   1     13152  1324  hrtimer_na 0000000000 S /system/bin/mobile_log_d
+shell     424   1     16044  1536  futex_wait 0000000000 S /system/bin/netdiag
+shell     454   1     15608  1632  hrtimer_na 7fa0a860a4 S /system/bin/batterywarning
+shell     847   1     18032  1864   pipe_wait 0000000000 S /system/bin/emdlogger1
+shell     886   1     18012  1860   pipe_wait 0000000000 S /system/bin/emdlogger3
+shell     5557  1     16980  900   poll_sched 0000000000 S /sbin/adbd
+shell     10051 1     13612  1476  poll_sched 7f8f3ddd5c S sh
+shell     11968 5557  1920044 45136 futex_wait 7f7888c030 S uiautomator
+shell     11981 5557  13816  1276           0 7fae3fee64 R ps
+
+160918 16:14:20.773: [DEBUG] [get_shell_pid] [809] loop:0
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:1
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:2
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:3
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:4
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:5
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:6
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:7
+160918 16:14:20.775: [DEBUG] [get_shell_pid] [809] loop:8
+160918 16:14:20.775: [INFO] [get_shell_pid] [811] find shell process
+160918 16:14:20.776: [INFO] [get_shell_pid] [813] sh_pidinfo:shell     10051 1     13612  1476  poll_sched 7f8f3ddd5c S sh
+160918 16:14:20.776: [INFO] [get_shell_pid] [817] sh_pid is:10051
+160918 16:14:20.776: [INFO] [Call_test] [502] kill shell pid 10051
+160918 16:14:20.822: [INFO] [Call_test] [506] kill shell pid success
+160918 16:14:20.858: [INFO] [get_battery] [1149]  get battery 0 times,battery:78
+160918 16:14:20.858: [INFO] [Call_test] [509] battery_finish: 78
+160918 16:14:20.858: [INFO] [Call_test] [512] call_battery: 4
+160918 16:14:22.904: [INFO] [setDisplayNever] [583] change display to Never
+160918 16:14:22.905: [DEBUG] [enterSetting] [530] enter setting
+160918 16:14:29.464: [DEBUG] [start_app] [66] start app:Settings
+160918 16:14:32.130: [DEBUG] [start_app] [70] Settings exists
+160918 16:14:35.145: [INFO] [enterSetting] [537] enter setting success!
+160918 16:14:45.894: [INFO] [setDisplayNever] [606] change display to Never success.
+160918 16:14:51.915: [INFO] [testdou] [48] call_battery:4
+160918 16:14:51.917: [INFO] [tearDownClass] [23] Dou Automation Test Completed
+160918 16:27:09.914: [INFO] [<module>] [139] test type:mini
+160918 16:27:09.917: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 16:27:10.003: [INFO] [openRelay] [140] open the relay
+160918 16:27:10.003: [DEBUG] [Call_test] [423] test call start
+160918 16:27:10.042: [INFO] [get_battery] [1149]  get battery 0 times,battery:81
+160918 16:27:10.042: [INFO] [Call_test] [427] battery_start: 81
+160918 16:27:11.043: [INFO] [Call_test] [491] start call.bat
+160918 16:27:13.101: [INFO] [closeRelay] [135] close the relay
+160918 16:31:34.973: [INFO] [<module>] [139] test type:mini
+160918 16:31:34.976: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 16:31:36.073: [INFO] [openRelay] [140] open the relay
+160918 16:31:36.075: [DEBUG] [Call_test] [423] test call start
+160918 16:35:40.842: [INFO] [<module>] [139] test type:mini
+160918 16:35:40.845: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 16:35:41.957: [INFO] [openRelay] [140] open the relay
+160918 16:35:41.959: [DEBUG] [Call_test] [423] test call start
+160918 16:35:42.013: [INFO] [get_battery] [1149]  get battery 0 times,battery:81
+160918 16:35:42.015: [INFO] [Call_test] [427] battery_start: 81
+160918 16:35:43.016: [INFO] [Call_test] [491] start call.bat
+160918 16:35:45.062: [INFO] [closeRelay] [135] close the relay
+160918 16:40:43.023: [INFO] [<module>] [139] test type:mini
+160918 16:40:43.026: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160918 16:40:44.131: [INFO] [openRelay] [140] open the relay
+160918 16:40:44.131: [DEBUG] [Call_test] [423] test call start
+160926 15:33:18.641: [INFO] [<module>] [139] test type:mini
+160926 15:33:18.641: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160926 15:33:19.842: [INFO] [openRelay] [140] open the relay
+160926 15:33:19.842: [DEBUG] [Call_test] [423] test call start
+160926 15:33:19.842: [INFO] [setDisplay15s] [556] change display to 15s
+160926 15:33:19.858: [DEBUG] [enterSetting] [530] enter setting
+160926 15:33:36.815: [DEBUG] [start_app] [66] start app:Settings
+160926 15:33:39.904: [DEBUG] [start_app] [70] Settings exists
+160926 15:33:42.884: [INFO] [enterSetting] [537] enter setting success!
+160926 15:33:52.384: [INFO] [setDisplay15s] [576] change display to 15s success
+160926 15:33:55.815: [INFO] [get_battery] [1149]  get battery 0 times,battery:100
+160926 15:33:55.815: [INFO] [Call_test] [427] battery_start: 100
+160926 15:33:56.892: [INFO] [Call_test] [431] close charging
+160926 15:33:56.954: [DEBUG] [Call_test] [497] returnValue:
+160926 15:33:57.002: [DEBUG] [Call_test] [497] returnValue:
+160926 15:33:57.063: [DEBUG] [Call_test] [497] returnValue:
+160926 15:33:57.111: [DEBUG] [Call_test] [497] returnValue:
+160926 15:33:57.173: [DEBUG] [Call_test] [497] returnValue:
+160926 15:35:01.257: [ERROR] [Call_test] [520] [Errno 4] Interrupted function call
+160926 15:35:01.257: [INFO] [setDisplayNever] [583] change display to Never
+160926 15:35:01.257: [DEBUG] [enterSetting] [530] enter setting
+160926 15:36:34.717: [INFO] [<module>] [139] test type:mini
+160926 15:36:34.717: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160926 15:36:34.842: [INFO] [openRelay] [140] open the relay
+160926 15:36:34.842: [DEBUG] [Call_test] [423] test call start
+160926 15:36:34.842: [INFO] [setDisplay15s] [563] change display to 15s
+160926 15:36:34.842: [DEBUG] [enterSetting] [537] enter setting
+160926 15:36:47.604: [DEBUG] [start_app] [66] start app:Settings
+160926 15:36:50.691: [DEBUG] [start_app] [70] Settings exists
+160926 15:36:53.780: [INFO] [enterSetting] [544] enter setting success!
+160926 15:37:03.171: [INFO] [setDisplay15s] [583] change display to 15s success
+160926 15:37:06.510: [INFO] [get_battery] [1156]  get battery 0 times,battery:100
+160926 15:37:06.510: [INFO] [Call_test] [427] battery_start: 100
+160926 15:37:07.586: [INFO] [Call_test] [431] close charging
+160926 15:37:07.586: [DEBUG] [Call_test] [499] phoneNumber:10010
+160926 15:37:08.976: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:37:08.976: [INFO] [Call_test] [506] Call success
+160926 15:40:10.279: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:40:10.279: [INFO] [Call_test] [506] Call success
+160926 15:43:11.584: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:43:11.584: [INFO] [Call_test] [506] Call success
+160926 15:46:12.887: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:46:12.887: [INFO] [Call_test] [506] Call success
+160926 15:49:14.190: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:49:14.190: [INFO] [Call_test] [506] Call success
+160926 15:52:15.493: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:52:15.493: [INFO] [Call_test] [506] Call success
+160926 15:55:16.799: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:55:16.799: [INFO] [Call_test] [506] Call success
+160926 15:58:18.101: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 15:58:18.101: [INFO] [Call_test] [506] Call success
+160926 16:01:19.405: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 16:01:19.405: [INFO] [Call_test] [506] Call success
+160926 16:04:20.709: [DEBUG] [Call_test] [504] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160926 16:04:20.709: [INFO] [Call_test] [506] Call success
+160926 16:07:22.341: [INFO] [Call_test] [513] open charging
+160926 16:07:22.388: [INFO] [get_battery] [1156]  get battery 0 times,battery:100
+160926 16:07:22.388: [INFO] [Call_test] [516] battery_finish: 100
+160926 16:07:22.388: [INFO] [Call_test] [519] call_battery: 0
+160926 16:07:22.964: [INFO] [setDisplayNever] [590] change display to Never
+160926 16:07:22.964: [DEBUG] [enterSetting] [537] enter setting
+160926 16:07:29.095: [DEBUG] [start_app] [66] start app:Settings
+160926 16:07:32.168: [DEBUG] [start_app] [70] Settings exists
+160926 16:07:35.164: [INFO] [enterSetting] [544] enter setting success!
+160926 16:07:45.773: [INFO] [setDisplayNever] [613] change display to Never success.
+160926 16:07:52.216: [INFO] [testdou] [48] call_battery:0
+160926 16:07:52.216: [INFO] [tearDownClass] [23] Dou Automation Test Completed
+160927 10:01:42.486: [INFO] [<module>] [139] test type:mini
+160927 10:01:42.516: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+160927 10:01:47.868: [INFO] [openRelay] [140] open the relay
+160927 10:01:47.868: [DEBUG] [Call_test] [423] test call start
+160927 10:01:47.868: [INFO] [setDisplay15s] [567] change display to 15s
+160927 10:01:47.868: [DEBUG] [enterSetting] [541] enter setting
+160927 10:02:05.230: [DEBUG] [start_app] [66] start app:Settings
+160927 10:02:08.303: [DEBUG] [start_app] [70] Settings exists
+160927 10:02:11.299: [INFO] [enterSetting] [548] enter setting success!
+160927 10:02:20.721: [INFO] [setDisplay15s] [587] change display to 15s success
+160927 10:02:24.154: [INFO] [get_battery] [1160]  get battery 0 times,battery:100
+160927 10:02:24.154: [INFO] [Call_test] [427] battery_start: 100
+160927 10:02:25.246: [INFO] [Call_test] [431] 1111
+160927 10:02:25.308: [INFO] [Call_test] [434] 2222222
+160927 10:02:25.308: [DEBUG] [Call_test] [502] phoneNumber:10010
+160927 10:02:26.588: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:02:26.588: [INFO] [Call_test] [510] Call success for 0 times
+160927 10:05:27.907: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:05:27.907: [INFO] [Call_test] [510] Call success for 1 times
+160927 10:08:29.194: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:08:29.194: [INFO] [Call_test] [510] Call success for 2 times
+160927 10:11:30.497: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:11:30.497: [INFO] [Call_test] [510] Call success for 3 times
+160927 10:14:31.792: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:14:31.792: [INFO] [Call_test] [510] Call success for 4 times
+160927 10:17:33.095: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:17:33.095: [INFO] [Call_test] [510] Call success for 5 times
+160927 10:20:34.398: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:20:34.398: [INFO] [Call_test] [510] Call success for 6 times
+160927 10:23:35.703: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:23:35.703: [INFO] [Call_test] [510] Call success for 7 times
+160927 10:26:37.023: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:26:37.023: [INFO] [Call_test] [510] Call success for 8 times
+160927 10:29:38.325: [DEBUG] [Call_test] [508] returnValue:Starting: Intent { act=android.intent.action.CALL dat=tel:xxxxx }
+
+160927 10:29:38.325: [INFO] [Call_test] [510] Call success for 9 times
+160927 10:32:40.019: [INFO] [Call_test] [517] 333
+160927 10:32:40.051: [INFO] [get_battery] [1160]  get battery 0 times,battery:100
+160927 10:32:40.051: [INFO] [Call_test] [520] battery_finish: 100
+160927 10:32:40.051: [INFO] [Call_test] [523] call_battery: 0
+160927 10:32:40.519: [INFO] [setDisplayNever] [594] change display to Never
+160927 10:32:40.519: [DEBUG] [enterSetting] [541] enter setting
+160927 10:32:46.650: [DEBUG] [start_app] [66] start app:Settings
+160927 10:32:49.723: [DEBUG] [start_app] [70] Settings exists
+160927 10:32:52.733: [INFO] [enterSetting] [548] enter setting success!
+160927 10:33:03.263: [INFO] [setDisplayNever] [617] change display to Never success.
+160927 10:33:09.707: [INFO] [testdou] [48] call_battery:0
+160927 10:33:09.707: [INFO] [tearDownClass] [23] Dou Automation Test Completed
+161009 15:18:09.259: [INFO] [<module>] [139] test type:mini
+161009 15:18:09.276: [INFO] [connect_device] [25] Device ID is UKZPV4GUAAEENNYD backend is UIAutomator
+161009 15:18:10.460: [INFO] [openRelay] [140] open the relay
+161009 15:18:10.523: [DEBUG] [game_test] [981] Play games start
+161009 15:18:11.559: [ERROR] [game_test] [1020] Device not attached.
+161009 15:18:19.835: [INFO] [tearDownClass] [23] Dou Automation Test Completed

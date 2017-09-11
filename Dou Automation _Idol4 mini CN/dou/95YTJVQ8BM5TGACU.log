@@ -1,0 +1,10 @@
+161010 14:49:01.838: [INFO] [<module>] [139] test type:mini
+161010 14:49:01.838: [INFO] [connect_device] [25] Device ID is 95YTJVQ8BM5TGACU backend is UIAutomator
+161010 14:49:02.961: [INFO] [openRelay] [140] open the relay
+161010 14:49:02.961: [DEBUG] [game_test] [1008] Play games start
+161010 14:49:04.023: [ERROR] [game_test] [1053] Device not attached.
+161010 14:49:44.868: [INFO] [<module>] [139] test type:mini
+161010 14:49:44.868: [INFO] [connect_device] [25] Device ID is 95YTJVQ8BM5TGACU backend is UIAutomator
+161010 14:49:46.022: [INFO] [openRelay] [140] open the relay
+161010 14:49:46.022: [DEBUG] [game_test] [1008] Play games start
+161010 14:49:47.068: [ERROR] [game_test] [1053] Device 95YTJVQ8BM5TGACU not connected!

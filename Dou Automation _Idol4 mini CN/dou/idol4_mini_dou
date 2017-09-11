@@ -1,0 +1,91 @@
+<NotepadPlus>
+    <Project name="idol4 mini Dou">
+        <Folder name=".idea">
+            <Folder name="dictionaries">
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\dictionaries\93651.xml" />
+            </Folder>
+            <Folder name="scopes">
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\scopes\scope_settings.xml" />
+            </Folder>
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\Dou Automation.iml" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\encodings.xml" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\misc.xml" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\modules.xml" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\vcs.xml" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\.idea\workspace.xml" />
+        </Folder>
+        <Folder name="automator">
+            <Folder name="libs">
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\libs\bundle.jar" />
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\libs\uiautomator-stub.jar" />
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\libs\uiautomator-stub_dex2jar.jar" />
+            </Folder>
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\adb.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\adb.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\base.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\base.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\monkeyUser.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\uiautomator.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\uiautomator.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\__init__.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\automator\__init__.pyc" />
+        </Folder>
+        <Folder name="common">
+            <Folder name="results">
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\results\2015-09-07-16-35-23.png" />
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\results\2015-09-30-09-55-17.png" />
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\results\2015-09-30-09-55-44.png" />
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\results\2015-09-30-09-56-12.png" />
+                <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\results\2015-09-30-10-22-42.png" />
+            </Folder>
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\common.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\common.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\configs.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\configs.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\dou.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\dou.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\lang.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\presettings.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\presettings.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\settings.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\settings.pyc" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\__init__.py" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\common\__init__.pyc" />
+        </Folder>
+        <Folder name="configure">
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\configure\appinfo.ini" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\configure\common.ini" />
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\configure\user.ini" />
+        </Folder>
+        <Folder name="dou">
+            <Folder name="results">
+                <File name="results\dou.csv" />
+            </Folder>
+            <File name="AYGQDUQ8JBE69TZL.log" />
+            <File name="call.bat" />
+            <File name="call_auto.sh" />
+            <File name="camera.bat" />
+            <File name="Camera_auto.sh" />
+            <File name="DouAutomation.py" />
+            <File name="idol4_mini_dou" />
+            <File name="MNMVQ4UOPNSO75FE.log" />
+            <File name="PFPVSWKFIJSWQWMZ.log" />
+            <File name="PN4DLVQWHUH6CA4L.log" />
+            <File name="R8V4N7KJNB7HPRZL.log" />
+            <File name="result.ini" />
+            <File name="start_call.txt" />
+            <File name="start_camera.txt" />
+            <File name="start_wechat.txt" />
+            <File name="start_weibo.txt" />
+            <File name="UKZPV4GUAAEENNYD.log" />
+            <File name="wechat.bat" />
+            <File name="wechat_auto.sh" />
+            <File name="weibo.bat" />
+            <File name="Weibo_auto.sh" />
+        </Folder>
+        <Folder name="&#x6D4B;&#x8BD5;&#x8981;&#x6C42;">
+            <File name="D:\aaa\Dou Automation _Idol4 mini CN\&#x6D4B;&#x8BD5;&#x8981;&#x6C42;\XX_Dou_Enduser Test Case&amp;Report0.3_20160524.xlsx" />
+        </Folder>
+        <File name="D:\aaa\Dou Automation _Idol4 mini CN\MonkeyTest.py" />
+    </Project>
+</NotepadPlus>
