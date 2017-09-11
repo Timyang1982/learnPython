@@ -31,6 +31,7 @@ def newFolder(path,curtime):
 def getDevices():
     device = []
     curpath = os.getcwd()
+    print curpath
     os.system(adbpath+' devices>'+'\"'+curpath+'\"'+"\\device.info")
     with open(curpath+'\\device.info') as data:
         for line in data:
@@ -57,7 +58,7 @@ def pullLog(s_number,path):
     logpath =  path+'\\'+s_number
     c_logpath = newFolder(logpath,curtime)
     os.system(adbpath+' -s '+s_number+' pull /mnt/m_internal_storage/mtklog/ '+'\"'+c_logpath+'\"')  
-	os.system(adbpath+' -s '+s_number+' shell'+' \"dumpsys meminfo >'+c_logpath+'\\memoinfo.txt\"')  
+    os.system(adbpath+' -s '+s_number+' shell'+' \"dumpsys meminfo >'+c_logpath+'\\memoinfo.txt\"')  
     print(s_number+'_ Pull log Succeed')
     
 
