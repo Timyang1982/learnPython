@@ -30,14 +30,10 @@ def newFolder(path,curtime):
     
 def getDevices():
     device = []
-    curpath = os.getcwd()
-    print curpath
-    os.system(adbpath+' devices>'+'\"'+curpath+'\"'+"\\device.info")
-    with open(curpath+'\\device.info') as data:
-        for line in data:
-            dev = re.match(r'\w{16}',line)
-            if dev:
-                device.append(dev.group())
+    for i in os.popen('adb devices')
+        dev = re.match(r'\w{16}',line)
+        if dev:
+            device.append(dev.group(1))
     return device
                 
 def startLog(s_number):
